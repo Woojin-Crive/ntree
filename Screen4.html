@@ -9,34 +9,52 @@
             height: 200px;
         }
     </style>
+    <script>
+        function centera() {
+            document.write("<center>");
+        }
+
+        function centerb() {
+            document.write("</center>");
+        }
+    </script>
 </head>
 
 <body>
     <script>
         function products1() {
             document.getElementById("image1").src = "";
+            centera();
             document.write("<h1>옥수수 빨대</h1><p>1ea/16\\<br>생분해되는 친환경 빨대</p>");
-
+            centerb();
         }
 
         function products2() {
             document.getElementById("image2").src = "";
+            centera();
             document.write("<h1>생분해성 비닐봉지</h1><p>1ea/33\\<br>생분해되는 친환경 비닐봉지</p>");
+            centerb();
         }
 
         function products3() {
             document.getElementById("image3").src = "";
+            centera();
             document.write("<h1>종이 호일</h1><p>1ea/1600\\<br>알루미늄에 비해 빠른 자연분해속도</p>");
+            centerb();
         }
 
         function products4() {
             document.getElementById("image4").src = "";
+            centera();
             document.write("<h1>에코백</h1><p>1ea/850WW<br>일회용 비닐봉지를 대신하면서 생분해되는 가방</p>");
+            centerb();
         }
 
         function products5() {
             document.getElementById("image5").src = "";
+            centera();
             document.write("<h1>천연염료</h1><p>1ea/2900WW<br>화학적인 염료를 사용하지 않아 친환경적</p>");
+            centerb();
         }
     </script>
     <center>
@@ -45,7 +63,6 @@
                 src="https://gdimg.gmarket.co.kr/986407163/still/600?ver=0" /></button>
         <button type="button" onclick="products2()"><img id="image2"
                 src="https://post-phinf.pstatic.net/MjAxNzA4MThfOTcg/MDAxNTAzMDM5MjA5MzQ5.omZR30WX28C_i54ujMuV8GtlA-tyhJ-mHP7VT9WWWFgg.VEC80lQQpjGKy_xsdtN1ED5M46gFHxwFB1gBIizJmoUg.PNG/1_%EC%83%9D%EB%B6%84%ED%95%B4%EC%84%B1%ED%94%8C%EB%9D%BC%EC%8A%A4%ED%8B%B1.png?type=w1200" /></button>
-
         <button type="button" onclick="products3()"><img id="image3"
                 src="https://cdn.shopify.com/s/files/1/1358/5943/products/39670e76a07b3f04e641b576d638951b_1024x1024.JPG?v=1521833780" /></button>
         <button type="button" onclick="products4()"><img id="image4"
